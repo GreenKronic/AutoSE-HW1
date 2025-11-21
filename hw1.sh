@@ -34,7 +34,7 @@ docker run -it --rm \
   -v "$PIPE":/var/run/hostbrowserpipe \
   -v "$dir":/vol \
   -e HOST_DIR="$dir" \
-  hw1 \
+  greenkronic/hw1 \
   "$VAR"
 
 while true; do
